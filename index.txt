@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Write with Woo</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f5f5f5;
+            color: #333;
+        }
+        header {
+            background-color: #444;
+            color: #fff;
+            text-align: center;
+            padding: 1rem 0;
+        }
+        header h1 {
+            margin: 0;
+        }
+        nav {
+            margin-top: 1rem;
+        }
+        nav a {
+            color: #fff;
+            margin: 0 1rem;
+            text-decoration: none;
+            font-weight: bold;
+        }
+        section {
+            padding: 2rem;
+            text-align: center;
+        }
+        .cta {
+            background-color: #eee;
+            padding: 2rem;
+            margin: 2rem 0;
+            border-radius: 5px;
+        }
+        .cta h2 {
+            margin-bottom: 1rem;
+        }
+        .cta button {
+            background-color: #444;
+            color: #fff;
+            border: none;
+            padding: 0.75rem 1.5rem;
+            font-size: 1rem;
+            cursor: pointer;
+            border-radius: 5px;
+        }
+        .cta button:hover {
+            background-color: #666;
+        }
+        footer {
+            background-color: #444;
+            color: #fff;
+            text-align: center;
+            padding: 1rem 0;
+        }
+        footer p {
+            margin: 0;
+            font-size: 0.9rem;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Write with Woo</h1>
+        <nav>
+            <a href="#about">About</a>
+            <a href="#features">Features</a>
+            <a href="#pricing">Pricing</a>
+            <a href="#join">Join</a>
+        </nav>
+    </header>
+
+    <section id="about">
+        <h2>Welcome to Write with Woo</h2>
+        <p>Your space for writing accountability, inspiration, and community. Join us in holding space for your creative visions.</p>
+        <p>At Write with Woo, we believe in the power of shared creative energy and intentional focus to transform your writing journey.</p>
+    </section>
+
+    <section id="features">
+        <h2>What We Offer</h2>
+        <ul>
+            <li><strong>Daily Virtual Writing Sessions:</strong> Dedicated time and space to write alongside a supportive community.</li>
+            <li><strong>Accountability & Encouragement:</strong> Stay on track with your goals and celebrate your progress.</li>
+            <li><strong>Inspiration & Creativity:</strong> Receive prompts, ideas, and support to spark your imagination.</li>
+            <li><strong>Writer's Retreats:</strong> Exclusive opportunities for deep focus and rejuvenation.</li>
+        </ul>
+    </section>
+
+    <section id="pricing" class="cta">
+        <h2>Affordable and Accessible</h2>
+        <p>Join Write with Woo for just $1 per day. No hidden fees, no long-term commitments. A small investment in your big creative dreams.</p>
+    </section>
+
+    <section id="join" class="cta">
+        <h2>Ready to Write with Woo?</h2>
+        <p>Sign up today and unlock your writing potential with a community that understands your vision.</p>
+        <button onclick="window.location.href='https://example.com/signup'">Join Now</button>
+    </section>
+
+    <footer>
+        <p>&copy; 2024 Write with Woo. All rights reserved.</p>
+        <p><a href="mailto:contact@writewithwoo.com" style="color: #fff;">contact@writewithwoo.com</a></p>
+    </footer>
+</body>
+</html>
